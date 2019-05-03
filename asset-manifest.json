@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.aa0ee629.chunk.css",
-    "main.js": "/personal-website/static/js/main.aeb774b5.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.aeb774b5.chunk.js.map",
-    "runtime~main.js": "/personal-website/static/js/runtime~main.93f2c6c9.js",
-    "runtime~main.js.map": "/personal-website/static/js/runtime~main.93f2c6c9.js.map",
-    "static/css/2.288022e5.chunk.css": "/personal-website/static/css/2.288022e5.chunk.css",
-    "static/js/2.37876b10.chunk.js": "/personal-website/static/js/2.37876b10.chunk.js",
-    "static/js/2.37876b10.chunk.js.map": "/personal-website/static/js/2.37876b10.chunk.js.map",
-    "index.html": "/personal-website/index.html",
-    "precache-manifest.909d4d9127cb2fd511cab58c08dc88ec.js": "/personal-website/precache-manifest.909d4d9127cb2fd511cab58c08dc88ec.js",
-    "service-worker.js": "/personal-website/service-worker.js",
-    "static/css/2.288022e5.chunk.css.map": "/personal-website/static/css/2.288022e5.chunk.css.map",
-    "static/css/main.aa0ee629.chunk.css.map": "/personal-website/static/css/main.aa0ee629.chunk.css.map",
-    "static/media/font-awesome.min.css": "/personal-website/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/pageDefaults.scss": "/personal-website/static/media/richardBackground.4847ea35.jpg"
+    "main.css": "/website/static/css/main.fc6d84e0.chunk.css",
+    "main.js": "/website/static/js/main.fa50ae93.chunk.js",
+    "main.js.map": "/website/static/js/main.fa50ae93.chunk.js.map",
+    "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
+    "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
+    "static/css/2.14800ccc.chunk.css": "/website/static/css/2.14800ccc.chunk.css",
+    "static/js/2.37876b10.chunk.js": "/website/static/js/2.37876b10.chunk.js",
+    "static/js/2.37876b10.chunk.js.map": "/website/static/js/2.37876b10.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.94e60efc038e4e0b181d9a6b106b3bde.js": "/website/precache-manifest.94e60efc038e4e0b181d9a6b106b3bde.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/2.14800ccc.chunk.css.map": "/website/static/css/2.14800ccc.chunk.css.map",
+    "static/css/main.fc6d84e0.chunk.css.map": "/website/static/css/main.fc6d84e0.chunk.css.map",
+    "static/media/font-awesome.min.css": "/website/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/pageDefaults.scss": "/website/static/media/richardBackground.4847ea35.jpg"
   }
 }
