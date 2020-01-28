@@ -8,14 +8,15 @@
     "@fortawesome/free-solid-svg-icons": "^5.1.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "bootstrap": "^4.3.1",
+    "core-js": "^3.6.4",
     "font-awesome": "^4.7.0",
     "gh-pages": "^2.0.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.6.1",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0",
+    "react-scripts": "^3.3.0",
     "reactstrap": "^8.0.0"
   },
   "scripts": {
@@ -40,5 +41,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "fibers": "^4.0.2",
+    "jquery": "^3.4.1",
+    "sass": "^1.25.0",
+    "typescript": "^3.7.5"
   }
 }
