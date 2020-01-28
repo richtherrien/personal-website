@@ -14,10 +14,39 @@ class Resume extends Component {
                             <p>Bachelor of Engineering, Computer Engineering
                             </p>
                         </Col>
-                        <Col className="text-md-right">  September 2015 - May 2020</Col>
+                        <Col className="text-md-right">  September 2015 - April 2020</Col>
                     </Row>
 
                     <h1 className="display-4">Work Experience</h1>
+                    <Row>
+                        <Col md="12">
+                            <h4>PHP Developer</h4>
+                        </Col>
+                        <Col>
+                            <a href='http://www.socialenterprise.ca/'>Social Enterprise for Canada</a>
+                        </Col>
+                        <Col className="text-md-right">  June 2019 - August 2019</Col>
+
+                        <p>
+                            <ul>
+                                <li>Worked with Vue.js and PHP to develop web applications to reduce administrative burdens as well as implementing data analytics and reporting.
+                                </li>
+                                <li>Implemented data validation to web applications to ensure accuracy and reliability.
+                                </li>
+
+                                <li>Created functions using stored SQL data to generate reports to display metrics on administrative dashboard.
+                                </li>
+
+                                <li>Updated role and routing permissions to allow users to perform certain actions in the web applications. 
+                                </li>
+
+                                <li>Improved security of web applications by implementing refresh tokens.
+                                </li>
+                            </ul>
+                        </p>
+                    </Row>
+
+
                     <Row>
                         <Col md="12">
                             <h4>Software Engineer</h4>
@@ -89,7 +118,7 @@ class Resume extends Component {
                             <h4>Junior IT Support Analyst</h4>
                         </Col>
                         <Col>
-                        <a href='http://citronhygiene.com/'>Citron Hygiene</a>
+                            <a href='http://citronhygiene.com/'>Citron Hygiene</a>
                         </Col>
                         <Col className="text-md-right">  May 2018 - August 2018</Col>
                         <p>
