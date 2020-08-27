@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./pageDefaults.scss";
 import { Container, Row, Col } from 'reactstrap';
 
-import { FaJava, FaCode, FaLinux, FaHtml5, FaJs, FaBootstrap, FaGit, FaNodeJs, FaPhp, FaPython, FaMicrosoft, FaCuttlefish, FaRegFileCode, FaDatabase } from 'react-icons/fa';
+import { FaJava, FaCode, FaLinux, FaHtml5, FaJs, FaBootstrap, FaGit, FaNodeJs, FaPhp, FaPython, FaMicrosoft, FaCuttlefish, FaRegFileCode, FaDatabase, FaFileCode } from 'react-icons/fa';
 
 const items = [
     {
@@ -12,17 +12,17 @@ const items = [
     }, {
         faIcon: <FaPhp />,
         title: 'PHP',
-        caption: 'Less than a year of developing on a web platform'
+        caption: '2 year of experience with developing web applications'
     }, {
         faIcon: <FaCuttlefish />,
         title: 'C',
-        caption: '3 years with the programming language'
+        caption: '4 years with the programming language'
     }, {
         faIcon: <FaCode />,
         title: 'VHDL',
         caption: '3 years with programming, created 32-bit CPU using Quartus'
     }, {
-        faIcon: <FaCode />,
+        faIcon: <FaFileCode />,
         title: 'MATLAB',
         caption: '3 years of analyzing data from different experiments'
     }, {
@@ -36,39 +36,51 @@ const items = [
     }, {
         faIcon: <FaHtml5 />,
         title: 'HTML/CSS',
-        caption: '2 year of creating new web pages and styles'
+        caption: '3 year of creating new web pages and styles'
     }, {
         faIcon: <FaJs />,
         title: 'JavaScript',
-        caption: '1 year of using the dynamic language for development'
+        caption: '2 years of using the dynamic language for development'
     }, {
         faIcon: <FaBootstrap />,
         title: 'Bootstrap',
-        caption: '1 year through work and personal projects'
+        caption: '2 years through work and personal projects'
     }, {
         faIcon: <FaCode />,
         title: 'C++',
-        caption: '1 year of developing applications'
+        caption: '2 years of developing applications'
+    }, {
+        faIcon: <FaFileCode />,
+        title: 'C#',
+        caption: '2 years of experience with developing web applications with ASP.net.'
     }, {
         faIcon: <FaGit />,
         title: 'Git',
-        caption: ' 1 year of experience using as a collaborative tool'
+        caption: '2 years of experience using as a collaborative tool'
     }, {
-        faIcon: <FaNodeJs />,
-        title: 'Node.js',
-        caption: '1 year of experience using the run-time environment to execute JavaScript'
+        faIcon: <FaCode />,
+        title: 'Angular',
+        caption: '1 year of experience with projects and the development of an Ionic application'
     }, {
+        faIcon: <FaFileCode />,
+        title: 'Vue.js',
+        caption: 'Less than a year through the development of web applications.'
+    },{
         faIcon: <FaDatabase />,
         title: 'SQL',
-        caption: 'Less than a year integrating with applications in SQLite and MySQL'
+        caption: '2 years of integrating with applications in SQLite and MySQL'
+    }, {
+        faIcon: <FaCode />,
+        title: 'TypeScript',
+        caption: '1 year of experience with developing mobile applications with Ionic framework'
     }, {
         faIcon: <FaPython />,
         title: 'Python',
-        caption: 'Less than a year of experience in the work environment'
+        caption: '1 year of experience in the work environment'
     }, {
         faIcon: <FaDatabase />,
         title: 'NoSQL',
-        caption: 'Less than a year experience with utilizing NoSQL databases'
+        caption: '1 year of experience with utilizing NoSQL databases'
     }, {
         faIcon: <FaMicrosoft />,
         title: 'Microsoft Products',

@@ -14,7 +14,7 @@ class Resume extends Component {
                             <p>Bachelor of Engineering, Computer Engineering
                             </p>
                         </Col>
-                        <Col className="text-md-right">  September 2015 - April 2020</Col>
+                        <Col className="text-md-right">  September 2015 - June 2020</Col>
                     </Row>
 
                     <h1 className="display-4">Work Experience</h1>
