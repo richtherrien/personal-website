@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-class Resume extends Component {
+class Experience extends Component {
     render() {
         return (
             <div className="container-fluid">
@@ -27,7 +27,7 @@ class Resume extends Component {
                         </Col>
                         <Col className="text-md-right">  June 2019 - August 2019</Col>
 
-                        <p>
+                       
                             <ul>
                                 <li>Worked with Vue.js and PHP to develop web applications to reduce administrative burdens as well as implementing data analytics and reporting.
                                 </li>
@@ -43,7 +43,7 @@ class Resume extends Component {
                                 <li>Improved security of web applications by implementing refresh tokens.
                                 </li>
                             </ul>
-                        </p>
+                       
                     </Row>
 
 
@@ -56,7 +56,7 @@ class Resume extends Component {
                         </Col>
                         <Col className="text-md-right">  January 2019- April 2019</Col>
 
-                        <p>
+                     
                             <ul>
                                 <li>Created a video presence system using Python and CouchDB in a Docker container to detect the status
                                   of users in a video appointment. This provided peace of mind to staff as the status of the appointment
@@ -75,7 +75,7 @@ class Resume extends Component {
                                 <li>Used Kanban framework to implement Agile software development.
                                 </li>
                             </ul>
-                        </p>
+                       
                     </Row>
 
 
@@ -87,7 +87,7 @@ class Resume extends Component {
                             <a href='https://startuptive.com'>Startuptive Inc.</a>
                         </Col>
                         <Col className="text-md-right">  September 2018 - December 2018</Col>
-                        <p>
+                       
                             <ul>
                                 <li>Investigated the hardware and software architecture of Internet of Things based devices, developed
                                   firmware in C++ to fit the company’s needs.
@@ -108,7 +108,7 @@ class Resume extends Component {
 
                                 <li>Conducted and scheduled in-person and phone interviews for applicants of other positions</li>
                             </ul>
-                        </p>
+                       
 
                     </Row>
 
@@ -121,7 +121,7 @@ class Resume extends Component {
                             <a href='http://citronhygiene.com/'>Citron Hygiene</a>
                         </Col>
                         <Col className="text-md-right">  May 2018 - August 2018</Col>
-                        <p>
+                       
                             <ul>
                                 <li>Provided administrative support, maintained inventory, updated the filing and other tracking
                                   systems.
@@ -141,7 +141,7 @@ class Resume extends Component {
 
                                 <li>Documented new systems and information in company database.</li>
                             </ul>
-                        </p>
+                      
                     </Row>
                 </Container>
             </div>
@@ -150,4 +150,4 @@ class Resume extends Component {
     }
 }
 
-export default Resume;
+export default Experience;

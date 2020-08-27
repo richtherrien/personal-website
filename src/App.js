@@ -6,7 +6,7 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Home from './components/pages/home';
 import About from './components/pages/about';
-import Resume from './components/pages/resume';
+import Experience from './components/pages/experience';
 import Contact from './components/pages/contact';
 import Skills from './components/pages/skills';
 import Terms from './components/pages/terms';
@@ -18,7 +18,7 @@ function App() {
         <Header />
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
-        <Route exact path='/resume' component={Resume} />
+        <Route exact path='/experience' component={Experience} />
         <Route exact path='/skills' component={Skills} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/terms' component={Terms} />

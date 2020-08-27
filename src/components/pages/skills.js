@@ -6,6 +6,7 @@ import { FaJava, FaCode, FaLinux, FaHtml5, FaJs, FaBootstrap, FaGit, FaPhp, FaPy
 
 const items = [
     {
+        key:0,
         faIcon: <FaJava />,
         title: 'Java',
         caption: '5 years programming for different projects in Netbeans and Android Studio'
@@ -103,16 +104,16 @@ class Skills extends Component {
     }
 
     render() {
-        const slides = items.map((item) => {
-            let iconColor = { color: this._getRandomColor(), 'background-color': this._getRandomColor() }
+        const slides = items.map((item, i) => {
+            let iconColor = { color: this._getRandomColor(), 'backgroundColor': this._getRandomColor() }
             return (
                 <Col className="col-nospacing" >
-                    <div class="flip-card rotate-in-center">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front" style={iconColor}>
+                    <div className="flip-card rotate-in-center">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front" style={iconColor}>
                                 {item.faIcon}
                             </div>
-                            <div class="flip-card-back">
+                            <div className="flip-card-back">
                                 <h1>{item.title}</h1>
                                 <p> {item.caption}</p>
 
