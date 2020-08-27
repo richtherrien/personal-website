@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./pageDefaults.scss";
 import { Container, Row, Col } from 'reactstrap';
 
-import { FaJava, FaCode, FaLinux, FaHtml5, FaJs, FaBootstrap, FaGit, FaNodeJs, FaPhp, FaPython, FaMicrosoft, FaCuttlefish, FaRegFileCode, FaDatabase, FaFileCode } from 'react-icons/fa';
+import { FaJava, FaCode, FaLinux, FaHtml5, FaJs, FaBootstrap, FaGit, FaPhp, FaPython, FaMicrosoft, FaCuttlefish, FaRegFileCode, FaDatabase, FaFileCode } from 'react-icons/fa';
 
 const items = [
     {
