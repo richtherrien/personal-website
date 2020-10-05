@@ -23,7 +23,7 @@ $yellow: rgb(150, 132, 33);
   color: $yellow;
 }
 
-a {
+.footer-navigation-text {
   color: $white;
   @include transition(0.5);
   cursor: pointer;
