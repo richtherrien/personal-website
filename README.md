@@ -1,3 +1,7 @@
+# Netlify Deployment
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7d363b54-c759-46b2-a174-bab63b6bfe88/deploy-status)](https://app.netlify.com/sites/dazzling-clarke-c818f8/deploys)
+
+# REACT
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
