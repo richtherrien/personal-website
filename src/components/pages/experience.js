@@ -14,10 +14,19 @@ class Experience extends Component {
                             <p>Bachelor of Engineering, Computer Engineering
                             </p>
                         </Col>
-                        <Col className="text-md-right">  September 2015 - June 2020</Col>
+                        <Col className="text-md-right">Graduated June 2020</Col>
                     </Row>
 
                     <h1 className="display-4">Work Experience</h1>
+                    <Row>
+                        <Col md="12">
+                            <h4>Full Stack Developer</h4>
+                        </Col>
+                        <Col>
+                            <a href='https://www.nextechar.com/'>Nextech AR Solutions</a>
+                        </Col>
+                        <Col className="text-md-right">October 2020 - Current</Col>
+                    </Row>
                     <Row>
                         <Col md="12">
                             <h4>PHP Developer</h4>

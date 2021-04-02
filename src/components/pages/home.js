@@ -21,11 +21,11 @@ class Home extends Component {
                             <Col>
                                 <br />
                                 <h2 className="display-4"> Who Am <span className="yellow">I</span>?</h2>
-                                <p className="lead">A dedicated and committed engineering graduate with development and technical skills. Aiming for an opportunity to utilize my abilities.
+                                <p className="lead">A university graduate with a Bachelor of Engineering in Computer Engineering and currently working as a Full Stack Developer.
                                 </p>
                             </Col>
                         </Row>
-                        <Row>
+                        {/* <Row>
                             <Col>
                                 <br />
                                 <h2 className="display-4"> Previous Project</h2>
@@ -34,7 +34,7 @@ class Home extends Component {
                                 <br />
                             </Col>
                         </Row>
-                        <Carousel />
+                        <Carousel /> */}
                     </Container>
                 </div>
 
