@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, NavLink } from "reactstrap";
-import { FaLinkedin, FaGithub, FaMagnet } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./../../variables.scss";
 
 class Footer extends Component {
