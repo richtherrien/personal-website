@@ -1,14 +1,14 @@
 @import "../../variables.scss";
 
-body > #root > div {
+body>#root>div {
   height: 100vh;
 }
 
 .backgroundImageRichard {
-  height: 100vh;
+  min-height: calc(100vh - 76px);
 
   background-image: url("../../richardBackground.jpg");
-  background-position: right 50% top 10px;
+  background-position: right 50% top 30px;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -17,7 +17,7 @@ body > #root > div {
   }
 }
 
-.carousel-item > img {
+.carousel-item>img {
   color: $black;
   height: 500px;
   display: block;
@@ -68,5 +68,5 @@ body > #root > div {
 }
 
 .full-height {
-  height: 100vh;
+  min-height: calc(100vh - 132px);
 }

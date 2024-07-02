@@ -10,7 +10,7 @@ class Home extends Component {
                     <Row>
                         <Col>
                             <h1 className="display-3 slide-top">Hi I'm <span className="yellow">Richard</span></h1>
-                            <p className="lead slide-right">Computer Engineering Graduate <br /> Ryerson University</p>
+                            <p className="lead slide-right">Technology Professional Specializing in Full Stack Development</p>
                         </Col>
                     </Row>
                 </Container>
@@ -20,7 +20,7 @@ class Home extends Component {
                             <Col>
                                 <br />
                                 <h2 className="display-4"> Who Am <span className="yellow">I</span>?</h2>
-                                <p className="lead">A university graduate with a Bachelor of Engineering in Computer Engineering and currently working as a Full Stack Developer.
+                                <p className="lead">A dedicated technology professional with a Bachelor of Engineering in Computer Engineering from Toronto Metropolitan University (formerly Ryerson University). With over five years of experience in full stack development, product management, and project management, I have a proven track record of delivering high-quality software solutions.
                                 </p>
                             </Col>
                         </Row>

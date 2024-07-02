@@ -2,93 +2,114 @@ import React, { Component } from 'react';
 import "./pageDefaults.scss";
 import { Container, Row, Col } from 'reactstrap';
 
-import { FaJava, FaCode, FaLinux, FaHtml5, FaJs, FaBootstrap, FaGit, FaPhp, FaPython, FaMicrosoft, FaCuttlefish, FaRegFileCode, FaDatabase, FaFileCode } from 'react-icons/fa';
+import { FaJava, FaCode, FaLinux, FaHtml5, FaJs, FaBootstrap, FaGit, FaPhp, FaPython, FaMicrosoft, FaCuttlefish, FaRegFileCode, FaDatabase, FaFileCode, FaUnity, FaAngular } from 'react-icons/fa';
+import { DiDjango, DiCodeigniter, DiLaravel, DiIonic } from 'react-icons/di';
+import { SiTypescript, SiCsharp } from 'react-icons/si';
 
 const items = [
     {
-        key:0,
         faIcon: <FaJava />,
         title: 'Java',
-        caption: '5 years programming for different projects in Netbeans and Android Studio'
+        caption: 'Extensive programming for various projects in Netbeans and Android Studio'
     }, {
         faIcon: <FaPhp />,
         title: 'PHP',
-        caption: '2 year of experience with developing web applications'
+        caption: 'Experience developing web applications'
     }, {
         faIcon: <FaCuttlefish />,
         title: 'C',
-        caption: '4 years with the programming language'
+        caption: 'Proficient with the programming language'
     }, {
         faIcon: <FaCode />,
         title: 'VHDL',
-        caption: '3 years with programming, created 32-bit CPU using Quartus'
+        caption: 'Created 32-bit CPU using Quartus'
     }, {
         faIcon: <FaFileCode />,
         title: 'MATLAB',
-        caption: '3 years of analyzing data from different experiments'
+        caption: 'Analyzed data from different experiments'
     }, {
         faIcon: <FaRegFileCode />,
         title: 'Assembly Language',
-        caption: '2 years of experience, used to program a HCS12 processor'
+        caption: 'Used to program a HCS12 processor'
     }, {
         faIcon: <FaLinux />,
         title: 'Linux',
-        caption: '4 years of using the operating system at work and university'
+        caption: 'Skilled in using the operating system in work and academic settings'
     }, {
         faIcon: <FaHtml5 />,
         title: 'HTML/CSS',
-        caption: '3 year of creating new web pages and styles'
+        caption: 'Created new web pages and styles'
     }, {
         faIcon: <FaJs />,
         title: 'JavaScript',
-        caption: '2 years of using the dynamic language for development'
+        caption: 'Utilized for dynamic web development'
     }, {
         faIcon: <FaBootstrap />,
         title: 'Bootstrap',
-        caption: '2 years through work and personal projects'
+        caption: 'Used through work and personal projects'
     }, {
         faIcon: <FaCode />,
         title: 'C++',
-        caption: '2 years of developing applications'
+        caption: 'Developed applications with the language'
     }, {
-        faIcon: <FaFileCode />,
+        faIcon: <SiCsharp />,
         title: 'C#',
-        caption: '2 years of experience with developing web applications with ASP.net.'
+        caption: 'Developed web applications with ASP.net'
     }, {
         faIcon: <FaGit />,
         title: 'Git',
-        caption: '2 years of experience using as a collaborative tool'
+        caption: 'Used as a collaborative tool in projects'
     }, {
-        faIcon: <FaCode />,
+        faIcon: <FaAngular />,
         title: 'Angular',
-        caption: '1 year of experience with projects and the development of an Ionic application'
+        caption: 'Worked on projects and developed an Ionic application'
     }, {
         faIcon: <FaFileCode />,
         title: 'Vue.js',
-        caption: 'Less than a year through the development of web applications.'
-    },{
+        caption: 'Experience developing web applications'
+    }, {
         faIcon: <FaDatabase />,
         title: 'SQL',
-        caption: '2 years of integrating with applications in SQLite and MySQL'
+        caption: 'Integrated with applications using SQLite and MySQL'
     }, {
-        faIcon: <FaCode />,
+        faIcon: <SiTypescript />,
         title: 'TypeScript',
-        caption: '1 year of experience with developing mobile applications with Ionic framework'
+        caption: 'Developed mobile applications with Ionic framework'
     }, {
         faIcon: <FaPython />,
         title: 'Python',
-        caption: '1 year of experience in the work environment'
+        caption: 'Used in a work environment'
     }, {
         faIcon: <FaDatabase />,
         title: 'NoSQL',
-        caption: '1 year of experience with utilizing NoSQL databases'
+        caption: 'Utilized NoSQL databases'
     }, {
         faIcon: <FaMicrosoft />,
         title: 'Microsoft Products',
         caption: 'Excel, PowerPoint, Word, Access, and SharePoint'
+    }, {
+        faIcon: <DiDjango />,
+        title: 'Django',
+        caption: 'Developed web applications using the Django framework'
+    }, {
+        faIcon: <DiCodeigniter />,
+        title: 'CodeIgniter',
+        caption: 'Developed web applications using the CodeIgniter framework'
+    }, {
+        faIcon: <DiLaravel />,
+        title: 'Laravel',
+        caption: 'Developed web applications using the Laravel framework'
+    }, {
+        faIcon: <DiIonic />,
+        title: 'Ionic',
+        caption: 'Developed mobile applications using the Ionic framework'
+    }, {
+        faIcon: <FaUnity />,
+        title: 'Unity',
+        caption: 'Developed applications using Unity'
     }
-
 ];
+
 
 
 
@@ -107,7 +128,7 @@ class Skills extends Component {
         const slides = items.map((item, i) => {
             let iconColor = { color: this._getRandomColor(), 'backgroundColor': this._getRandomColor() }
             return (
-                <Col className="col-nospacing" >
+                <Col className="col-nospacing" key={i}>
                     <div className="flip-card rotate-in-center">
                         <div className="flip-card-inner">
                             <div className="flip-card-front" style={iconColor}>
@@ -116,7 +137,6 @@ class Skills extends Component {
                             <div className="flip-card-back">
                                 <h1>{item.title}</h1>
                                 <p> {item.caption}</p>
-
                             </div>
                         </div>
                     </div>
@@ -125,14 +145,12 @@ class Skills extends Component {
         });
 
         return (
-            <div className="container-fluid">
+            <div className="container-fluid pb-5 full-height">
                 <Container >
                     <h1 className="display-4">Skills</h1>
                     <Row>
                         {slides}
                     </Row>
-
-
                 </Container>
             </div >
         );
